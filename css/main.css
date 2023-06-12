@@ -1,0 +1,30 @@
+:root {
+  --main-color: rgba(7, 7, 7, 0.89);
+  --sec-color: #ffff;
+}
+
+.navbar-custom {
+  background-color: #000000; /* Black background color */
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: #ffffff !important; /* White text color */
+}
+
+.navbar .navbar-nav .nav-item {
+  border-bottom: 2px solid transparent; /* Transparent bottom border for initial state */
+}
+
+.navbar .navbar-nav .nav-item:hover {
+  border-bottom-color: #ffffff; /* White bottom border color on hover */
+}
+
+.navbar .social-icons i {
+  color: #ffffff; /* White text color for social media icons */
+  font-size: 20px;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link ::after {
+  border-bottom: 2px solid white;
+}
